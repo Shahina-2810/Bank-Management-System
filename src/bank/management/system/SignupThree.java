@@ -24,7 +24,7 @@ public class SignupThree extends JFrame implements ActionListener{
     l1.setBounds(280, 40, 400, 40);
     add(l1);
     
-    JLabel type = new JLabel("Page 3: Account Type");
+    JLabel type = new JLabel("Account Type");
     type.setFont(new Font("Raleway", Font.BOLD, 22));
     type.setBounds(100, 140, 200, 30);
     add(type);
@@ -38,7 +38,7 @@ public class SignupThree extends JFrame implements ActionListener{
     r2 = new JRadioButton("Fixed Deposit Account");
     r2.setFont(new Font("Raleway",Font.BOLD, 16));
     r2.setBackground(Color.WHITE);
-    r2.setBounds(350, 180, 150, 20);
+    r2.setBounds(350, 180, 200, 20);
     add(r2);
     
     r3 = new JRadioButton("Current Account");
@@ -50,7 +50,7 @@ public class SignupThree extends JFrame implements ActionListener{
     r4 = new JRadioButton("Recurring Deposit Account");
     r4.setFont(new Font("Raleway",Font.BOLD, 16));
     r4.setBackground(Color.WHITE);
-    r4.setBounds(350, 220, 150, 20);
+    r4.setBounds(350, 220, 250, 20);
     add(r4);
     
     ButtonGroup accountsgroup = new ButtonGroup();
